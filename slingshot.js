@@ -2,8 +2,8 @@ class SlingShot {
   constructor(x, y, body) {
     const options = {
       pointA: {
-        x: x,
-        y: y
+        x: body.position.x,
+        y: body.position.y
       },
       bodyB: body,
       stiffness: 0.02,
