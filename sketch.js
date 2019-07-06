@@ -78,7 +78,7 @@ function setup(){
 
 
   // SlingShot for catapult
-  slingshot = new SlingShot(250, 230, bird.body);
+  slingshot = new SlingShot(160, 100, bird.body);
 
   const mouse = Mouse.create(canvas.elt);
   const options = {
