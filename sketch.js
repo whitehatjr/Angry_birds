@@ -125,7 +125,7 @@ function draw(){
   image(slingImage1, 250, 267, 30, 130);
   bird.show();
   image(slingImage2, 230, 263, 30, 80)
-
+//this instruction is a comment
   if(mousePressed){
     if(value == true){
       stroke("#301A03")
